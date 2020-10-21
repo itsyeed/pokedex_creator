@@ -3,7 +3,7 @@ This module will use pokepy to send REST API requests to the PokeAPI to build
 important components for our pokedex.
 
 TODO:
-    1) Berry, Item, and Evolution JSON objects
+    1) Abilties and Evolution JSON objects
 """
 
 import json
