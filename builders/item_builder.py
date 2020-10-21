@@ -7,6 +7,7 @@ TODO:
 """
 
 import json
+import os
 from beckett import exceptions as beckett_except
 import pokepy
 import jsbeautifier
@@ -34,7 +35,10 @@ def build_items():
         items[i].update({"name":item.name})
         items[i].update({"attr":[attr.name for attr in item.attributes]})
         items[i].update({"cat":item.category.name})
-        items[i].update({"fling":[item.fling_power, item.fling_effect.name]})
+        items[i].update({
+            "fling":[item.fling_power,
+                     item.fling_effect.name if item.fling_effect is not None else None]
+            })
         items[i].update({"cost":item.cost})
         print("[DONE] ID: " + str(i) + " | NAME: " + item.name)
         i += 1
@@ -45,10 +49,10 @@ def main():
     my_items = build_items()
     opts = jsbeautifier.default_options()
     opts.indent_size = 4
-    with open('output/items.json', 'w') as items:
+    with open('../output/items.json', 'w') as items:
         items.write(jsbeautifier.beautify(json.dumps(my_items)))
 
-    with open('output/items_min.json', 'w') as items_min:
+    with open('../output/items_min.json', 'w') as items_min:
         json.dump(my_items, items_min)
 
 if __name__ == '__main__':

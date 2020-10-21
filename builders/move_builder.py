@@ -7,6 +7,7 @@ TODO:
 """
 
 import json
+import os
 from beckett import exceptions as beckett_except
 import pokepy
 import jsbeautifier
@@ -59,10 +60,10 @@ def main():
     my_moves = build_moves()
     opts = jsbeautifier.default_options()
     opts.indent_size = 4
-    with open('output/moves.json', 'w') as moves:
+    with open('../output/moves.json', 'w') as moves:
         moves.write(jsbeautifier.beautify(json.dumps(my_moves)))
 
-    with open('output/moves_min.json', 'w') as moves_min:
+    with open('../output/moves_min.json', 'w') as moves_min:
         json.dump(my_moves, moves_min)
 
 if __name__ == '__main__':
