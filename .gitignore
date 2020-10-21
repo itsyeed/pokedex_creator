@@ -184,6 +184,3 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
-
-#Test File
-test.py
