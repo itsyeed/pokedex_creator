@@ -1,5 +1,6 @@
 import pokepy
 import re
+import requests
 
 def main():
     """Main Method"""
@@ -7,6 +8,8 @@ def main():
     pokemon = client.get_pokemon(123)
     print(re.findall(r"(?<=[\/])[0-9]+(?=[\/])",
                      client.get_pokemon_species(150).evolution_chain.url)[0])
+    print(client.get_pokemon_species(1).flavor_text_entries[0].flavor_text.replace("\n", " "))
+    print(requests.get("https://pokeapi.co/api/v2/pokemon/1/encounters").json())
     # print(pokemon.name)                                                 #NAME
     # print(pokemon.height)                                               #HEIGHT
     # print(pokemon.weight)                                               #WEIGHT
