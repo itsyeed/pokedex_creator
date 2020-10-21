@@ -1,0 +1,4664 @@
+{
+    "1": {
+        "name": "master-ball",
+        "attr": ["countable", "consumable", "usable-in-battle", "holdable"],
+        "cat": "standard-balls",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "2": {
+        "name": "ultra-ball",
+        "attr": ["countable", "consumable", "usable-in-battle", "holdable"],
+        "cat": "standard-balls",
+        "fling": [null, null],
+        "cost": 800
+    },
+    "3": {
+        "name": "great-ball",
+        "attr": ["countable", "consumable", "usable-in-battle", "holdable"],
+        "cat": "standard-balls",
+        "fling": [null, null],
+        "cost": 600
+    },
+    "4": {
+        "name": "poke-ball",
+        "attr": ["countable", "consumable", "usable-in-battle", "holdable"],
+        "cat": "standard-balls",
+        "fling": [null, null],
+        "cost": 200
+    },
+    "5": {
+        "name": "safari-ball",
+        "attr": ["countable", "consumable", "usable-in-battle", "holdable"],
+        "cat": "standard-balls",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "6": {
+        "name": "net-ball",
+        "attr": ["countable", "consumable", "usable-in-battle", "holdable"],
+        "cat": "special-balls",
+        "fling": [null, null],
+        "cost": 1000
+    },
+    "7": {
+        "name": "dive-ball",
+        "attr": ["countable", "consumable", "usable-in-battle", "holdable"],
+        "cat": "special-balls",
+        "fling": [null, null],
+        "cost": 1000
+    },
+    "8": {
+        "name": "nest-ball",
+        "attr": ["countable", "consumable", "usable-in-battle", "holdable"],
+        "cat": "special-balls",
+        "fling": [null, null],
+        "cost": 1000
+    },
+    "9": {
+        "name": "repeat-ball",
+        "attr": ["countable", "consumable", "usable-in-battle", "holdable"],
+        "cat": "special-balls",
+        "fling": [null, null],
+        "cost": 1000
+    },
+    "10": {
+        "name": "timer-ball",
+        "attr": ["countable", "consumable", "usable-in-battle", "holdable"],
+        "cat": "special-balls",
+        "fling": [null, null],
+        "cost": 1000
+    },
+    "11": {
+        "name": "luxury-ball",
+        "attr": ["countable", "consumable", "usable-in-battle", "holdable"],
+        "cat": "special-balls",
+        "fling": [null, null],
+        "cost": 1000
+    },
+    "12": {
+        "name": "premier-ball",
+        "attr": ["countable", "consumable", "usable-in-battle", "holdable"],
+        "cat": "special-balls",
+        "fling": [null, null],
+        "cost": 20
+    },
+    "13": {
+        "name": "dusk-ball",
+        "attr": ["countable", "consumable", "usable-in-battle", "holdable"],
+        "cat": "special-balls",
+        "fling": [null, null],
+        "cost": 1000
+    },
+    "14": {
+        "name": "heal-ball",
+        "attr": ["countable", "consumable", "usable-in-battle", "holdable"],
+        "cat": "special-balls",
+        "fling": [null, null],
+        "cost": 300
+    },
+    "15": {
+        "name": "quick-ball",
+        "attr": ["countable", "consumable", "usable-in-battle", "holdable"],
+        "cat": "special-balls",
+        "fling": [null, null],
+        "cost": 1000
+    },
+    "16": {
+        "name": "cherish-ball",
+        "attr": ["countable", "consumable", "usable-in-battle", "holdable"],
+        "cat": "special-balls",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "17": {
+        "name": "potion",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "healing",
+        "fling": [30, null],
+        "cost": 200
+    },
+    "18": {
+        "name": "antidote",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "status-cures",
+        "fling": [30, null],
+        "cost": 200
+    },
+    "19": {
+        "name": "burn-heal",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "status-cures",
+        "fling": [30, null],
+        "cost": 300
+    },
+    "20": {
+        "name": "ice-heal",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "status-cures",
+        "fling": [30, null],
+        "cost": 100
+    },
+    "21": {
+        "name": "awakening",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "status-cures",
+        "fling": [30, null],
+        "cost": 100
+    },
+    "22": {
+        "name": "paralyze-heal",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "status-cures",
+        "fling": [30, null],
+        "cost": 300
+    },
+    "23": {
+        "name": "full-restore",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "healing",
+        "fling": [30, null],
+        "cost": 3000
+    },
+    "24": {
+        "name": "max-potion",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "healing",
+        "fling": [30, null],
+        "cost": 2500
+    },
+    "25": {
+        "name": "hyper-potion",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "healing",
+        "fling": [30, null],
+        "cost": 1500
+    },
+    "26": {
+        "name": "super-potion",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "healing",
+        "fling": [30, null],
+        "cost": 700
+    },
+    "27": {
+        "name": "full-heal",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "status-cures",
+        "fling": [30, null],
+        "cost": 400
+    },
+    "28": {
+        "name": "revive",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable", "underground"],
+        "cat": "revival",
+        "fling": [30, null],
+        "cost": 2000
+    },
+    "29": {
+        "name": "max-revive",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable", "underground"],
+        "cat": "revival",
+        "fling": [30, null],
+        "cost": 4000
+    },
+    "30": {
+        "name": "fresh-water",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "healing",
+        "fling": [30, null],
+        "cost": 200
+    },
+    "31": {
+        "name": "soda-pop",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "healing",
+        "fling": [30, null],
+        "cost": 300
+    },
+    "32": {
+        "name": "lemonade",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "healing",
+        "fling": [30, null],
+        "cost": 400
+    },
+    "33": {
+        "name": "moomoo-milk",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "healing",
+        "fling": [30, null],
+        "cost": 600
+    },
+    "34": {
+        "name": "energy-powder",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "healing",
+        "fling": [30, null],
+        "cost": 500
+    },
+    "35": {
+        "name": "energy-root",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "healing",
+        "fling": [30, null],
+        "cost": 1200
+    },
+    "36": {
+        "name": "heal-powder",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "status-cures",
+        "fling": [30, null],
+        "cost": 300
+    },
+    "37": {
+        "name": "revival-herb",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "revival",
+        "fling": [30, null],
+        "cost": 2800
+    },
+    "38": {
+        "name": "ether",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "pp-recovery",
+        "fling": [30, null],
+        "cost": 1200
+    },
+    "39": {
+        "name": "max-ether",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "pp-recovery",
+        "fling": [30, null],
+        "cost": 2000
+    },
+    "40": {
+        "name": "elixir",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "pp-recovery",
+        "fling": [30, null],
+        "cost": 3000
+    },
+    "41": {
+        "name": "max-elixir",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "pp-recovery",
+        "fling": [30, null],
+        "cost": 4500
+    },
+    "42": {
+        "name": "lava-cookie",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "status-cures",
+        "fling": [30, null],
+        "cost": 350
+    },
+    "43": {
+        "name": "berry-juice",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "healing",
+        "fling": [30, null],
+        "cost": 200
+    },
+    "44": {
+        "name": "sacred-ash",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "revival",
+        "fling": [30, null],
+        "cost": 50000
+    },
+    "45": {
+        "name": "hp-up",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "vitamins",
+        "fling": [30, null],
+        "cost": 10000
+    },
+    "46": {
+        "name": "protein",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "vitamins",
+        "fling": [30, null],
+        "cost": 10000
+    },
+    "47": {
+        "name": "iron",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "vitamins",
+        "fling": [30, null],
+        "cost": 10000
+    },
+    "48": {
+        "name": "carbos",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "vitamins",
+        "fling": [30, null],
+        "cost": 10000
+    },
+    "49": {
+        "name": "calcium",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "vitamins",
+        "fling": [30, null],
+        "cost": 10000
+    },
+    "50": {
+        "name": "rare-candy",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "vitamins",
+        "fling": [30, null],
+        "cost": 10000
+    },
+    "51": {
+        "name": "pp-up",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "vitamins",
+        "fling": [30, null],
+        "cost": 10000
+    },
+    "52": {
+        "name": "zinc",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "vitamins",
+        "fling": [30, null],
+        "cost": 10000
+    },
+    "53": {
+        "name": "pp-max",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "vitamins",
+        "fling": [30, null],
+        "cost": 10000
+    },
+    "54": {
+        "name": "old-gateau",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "status-cures",
+        "fling": [30, null],
+        "cost": 350
+    },
+    "55": {
+        "name": "guard-spec",
+        "attr": ["countable", "consumable", "usable-in-battle", "holdable"],
+        "cat": "stat-boosts",
+        "fling": [30, null],
+        "cost": 1500
+    },
+    "56": {
+        "name": "dire-hit",
+        "attr": ["countable", "consumable", "usable-in-battle", "holdable"],
+        "cat": "stat-boosts",
+        "fling": [30, null],
+        "cost": 1000
+    },
+    "57": {
+        "name": "x-attack",
+        "attr": ["countable", "consumable", "usable-in-battle", "holdable"],
+        "cat": "stat-boosts",
+        "fling": [30, null],
+        "cost": 1000
+    },
+    "58": {
+        "name": "x-defense",
+        "attr": ["countable", "consumable", "usable-in-battle", "holdable"],
+        "cat": "stat-boosts",
+        "fling": [30, null],
+        "cost": 2000
+    },
+    "59": {
+        "name": "x-speed",
+        "attr": ["countable", "consumable", "usable-in-battle", "holdable"],
+        "cat": "stat-boosts",
+        "fling": [30, null],
+        "cost": 1000
+    },
+    "60": {
+        "name": "x-accuracy",
+        "attr": ["countable", "consumable", "usable-in-battle", "holdable"],
+        "cat": "stat-boosts",
+        "fling": [30, null],
+        "cost": 1000
+    },
+    "61": {
+        "name": "x-sp-atk",
+        "attr": ["countable", "consumable", "usable-in-battle", "holdable"],
+        "cat": "stat-boosts",
+        "fling": [30, null],
+        "cost": 1000
+    },
+    "62": {
+        "name": "x-sp-def",
+        "attr": ["countable", "consumable", "usable-in-battle", "holdable"],
+        "cat": "stat-boosts",
+        "fling": [30, null],
+        "cost": 2000
+    },
+    "63": {
+        "name": "poke-doll",
+        "attr": ["countable", "consumable", "usable-in-battle", "holdable"],
+        "cat": "spelunking",
+        "fling": [30, null],
+        "cost": 100
+    },
+    "64": {
+        "name": "fluffy-tail",
+        "attr": ["countable", "consumable", "usable-in-battle", "holdable"],
+        "cat": "spelunking",
+        "fling": [30, null],
+        "cost": 100
+    },
+    "65": {
+        "name": "blue-flute",
+        "attr": ["countable", "consumable", "usable-overworld", "usable-in-battle", "holdable"],
+        "cat": "flutes",
+        "fling": [30, null],
+        "cost": 20
+    },
+    "66": {
+        "name": "yellow-flute",
+        "attr": ["countable", "consumable", "usable-in-battle", "holdable"],
+        "cat": "flutes",
+        "fling": [30, null],
+        "cost": 20
+    },
+    "67": {
+        "name": "red-flute",
+        "attr": ["countable", "consumable", "usable-in-battle", "holdable"],
+        "cat": "flutes",
+        "fling": [30, null],
+        "cost": 20
+    },
+    "68": {
+        "name": "black-flute",
+        "attr": ["countable", "consumable", "usable-overworld", "holdable"],
+        "cat": "spelunking",
+        "fling": [30, null],
+        "cost": 20
+    },
+    "69": {
+        "name": "white-flute",
+        "attr": ["countable", "consumable", "usable-overworld", "holdable"],
+        "cat": "spelunking",
+        "fling": [30, null],
+        "cost": 20
+    },
+    "70": {
+        "name": "shoal-salt",
+        "attr": ["countable"],
+        "cat": "collectibles",
+        "fling": [30, null],
+        "cost": 20
+    },
+    "71": {
+        "name": "shoal-shell",
+        "attr": ["countable"],
+        "cat": "collectibles",
+        "fling": [30, null],
+        "cost": 20
+    },
+    "72": {
+        "name": "red-shard",
+        "attr": ["underground"],
+        "cat": "collectibles",
+        "fling": [30, null],
+        "cost": 1000
+    },
+    "73": {
+        "name": "blue-shard",
+        "attr": ["underground"],
+        "cat": "collectibles",
+        "fling": [30, null],
+        "cost": 1000
+    },
+    "74": {
+        "name": "yellow-shard",
+        "attr": ["underground"],
+        "cat": "collectibles",
+        "fling": [30, null],
+        "cost": 1000
+    },
+    "75": {
+        "name": "green-shard",
+        "attr": ["underground"],
+        "cat": "collectibles",
+        "fling": [30, null],
+        "cost": 1000
+    },
+    "76": {
+        "name": "super-repel",
+        "attr": [],
+        "cat": "spelunking",
+        "fling": [30, null],
+        "cost": 700
+    },
+    "77": {
+        "name": "max-repel",
+        "attr": [],
+        "cat": "spelunking",
+        "fling": [30, null],
+        "cost": 900
+    },
+    "78": {
+        "name": "escape-rope",
+        "attr": [],
+        "cat": "spelunking",
+        "fling": [30, null],
+        "cost": 1000
+    },
+    "79": {
+        "name": "repel",
+        "attr": [],
+        "cat": "spelunking",
+        "fling": [30, null],
+        "cost": 400
+    },
+    "80": {
+        "name": "sun-stone",
+        "attr": ["underground"],
+        "cat": "evolution",
+        "fling": [30, null],
+        "cost": 3000
+    },
+    "81": {
+        "name": "moon-stone",
+        "attr": ["underground"],
+        "cat": "evolution",
+        "fling": [30, null],
+        "cost": 3000
+    },
+    "82": {
+        "name": "fire-stone",
+        "attr": ["underground"],
+        "cat": "evolution",
+        "fling": [30, null],
+        "cost": 3000
+    },
+    "83": {
+        "name": "thunder-stone",
+        "attr": ["underground"],
+        "cat": "evolution",
+        "fling": [30, null],
+        "cost": 3000
+    },
+    "84": {
+        "name": "water-stone",
+        "attr": ["underground"],
+        "cat": "evolution",
+        "fling": [30, null],
+        "cost": 3000
+    },
+    "85": {
+        "name": "leaf-stone",
+        "attr": ["underground"],
+        "cat": "evolution",
+        "fling": [30, null],
+        "cost": 3000
+    },
+    "86": {
+        "name": "tiny-mushroom",
+        "attr": [],
+        "cat": "loot",
+        "fling": [30, null],
+        "cost": 500
+    },
+    "87": {
+        "name": "big-mushroom",
+        "attr": [],
+        "cat": "loot",
+        "fling": [30, null],
+        "cost": 5000
+    },
+    "88": {
+        "name": "pearl",
+        "attr": [],
+        "cat": "loot",
+        "fling": [30, null],
+        "cost": 2000
+    },
+    "89": {
+        "name": "big-pearl",
+        "attr": [],
+        "cat": "loot",
+        "fling": [30, null],
+        "cost": 8000
+    },
+    "90": {
+        "name": "stardust",
+        "attr": [],
+        "cat": "loot",
+        "fling": [30, null],
+        "cost": 3000
+    },
+    "91": {
+        "name": "star-piece",
+        "attr": ["underground"],
+        "cat": "loot",
+        "fling": [30, null],
+        "cost": 12000
+    },
+    "92": {
+        "name": "nugget",
+        "attr": [],
+        "cat": "loot",
+        "fling": [30, null],
+        "cost": 10000
+    },
+    "93": {
+        "name": "heart-scale",
+        "attr": ["underground"],
+        "cat": "collectibles",
+        "fling": [30, null],
+        "cost": 100
+    },
+    "94": {
+        "name": "honey",
+        "attr": [],
+        "cat": "dex-completion",
+        "fling": [30, null],
+        "cost": 300
+    },
+    "95": {
+        "name": "growth-mulch",
+        "attr": [],
+        "cat": "mulch",
+        "fling": [30, null],
+        "cost": 200
+    },
+    "96": {
+        "name": "damp-mulch",
+        "attr": [],
+        "cat": "mulch",
+        "fling": [30, null],
+        "cost": 200
+    },
+    "97": {
+        "name": "stable-mulch",
+        "attr": [],
+        "cat": "mulch",
+        "fling": [30, null],
+        "cost": 200
+    },
+    "98": {
+        "name": "gooey-mulch",
+        "attr": [],
+        "cat": "mulch",
+        "fling": [30, null],
+        "cost": 200
+    },
+    "99": {
+        "name": "root-fossil",
+        "attr": ["underground"],
+        "cat": "dex-completion",
+        "fling": [100, null],
+        "cost": 7000
+    },
+    "100": {
+        "name": "claw-fossil",
+        "attr": ["underground"],
+        "cat": "dex-completion",
+        "fling": [100, null],
+        "cost": 7000
+    },
+    "101": {
+        "name": "helix-fossil",
+        "attr": ["underground"],
+        "cat": "dex-completion",
+        "fling": [100, null],
+        "cost": 7000
+    },
+    "102": {
+        "name": "dome-fossil",
+        "attr": ["underground"],
+        "cat": "dex-completion",
+        "fling": [100, null],
+        "cost": 7000
+    },
+    "103": {
+        "name": "old-amber",
+        "attr": ["underground"],
+        "cat": "dex-completion",
+        "fling": [100, null],
+        "cost": 10000
+    },
+    "104": {
+        "name": "armor-fossil",
+        "attr": ["underground"],
+        "cat": "dex-completion",
+        "fling": [100, null],
+        "cost": 7000
+    },
+    "105": {
+        "name": "skull-fossil",
+        "attr": ["underground"],
+        "cat": "dex-completion",
+        "fling": [100, null],
+        "cost": 7000
+    },
+    "106": {
+        "name": "rare-bone",
+        "attr": ["underground"],
+        "cat": "loot",
+        "fling": [100, null],
+        "cost": 5000
+    },
+    "107": {
+        "name": "shiny-stone",
+        "attr": [],
+        "cat": "evolution",
+        "fling": [80, null],
+        "cost": 3000
+    },
+    "108": {
+        "name": "dusk-stone",
+        "attr": [],
+        "cat": "evolution",
+        "fling": [80, null],
+        "cost": 3000
+    },
+    "109": {
+        "name": "dawn-stone",
+        "attr": [],
+        "cat": "evolution",
+        "fling": [80, null],
+        "cost": 3000
+    },
+    "110": {
+        "name": "oval-stone",
+        "attr": ["underground"],
+        "cat": "evolution",
+        "fling": [80, null],
+        "cost": 2000
+    },
+    "111": {
+        "name": "odd-keystone",
+        "attr": ["underground"],
+        "cat": "dex-completion",
+        "fling": [80, null],
+        "cost": 2100
+    },
+    "112": {
+        "name": "adamant-orb",
+        "attr": ["holdable"],
+        "cat": "species-specific",
+        "fling": [60, null],
+        "cost": 0
+    },
+    "113": {
+        "name": "lustrous-orb",
+        "attr": ["holdable"],
+        "cat": "species-specific",
+        "fling": [60, null],
+        "cost": 0
+    },
+    "114": {
+        "name": "grass-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "115": {
+        "name": "flame-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "116": {
+        "name": "bubble-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "117": {
+        "name": "bloom-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "118": {
+        "name": "tunnel-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "119": {
+        "name": "steel-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "120": {
+        "name": "heart-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "121": {
+        "name": "snow-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "122": {
+        "name": "space-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "123": {
+        "name": "air-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "124": {
+        "name": "mosaic-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "125": {
+        "name": "brick-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "126": {
+        "name": "cheri-berry",
+        "attr": ["holdable-active"],
+        "cat": "medicine",
+        "fling": [10, "berry-effect"],
+        "cost": 20
+    },
+    "127": {
+        "name": "chesto-berry",
+        "attr": ["holdable-active"],
+        "cat": "medicine",
+        "fling": [10, "berry-effect"],
+        "cost": 20
+    },
+    "128": {
+        "name": "pecha-berry",
+        "attr": ["holdable-active"],
+        "cat": "medicine",
+        "fling": [10, "berry-effect"],
+        "cost": 20
+    },
+    "129": {
+        "name": "rawst-berry",
+        "attr": ["holdable-active"],
+        "cat": "medicine",
+        "fling": [10, "berry-effect"],
+        "cost": 20
+    },
+    "130": {
+        "name": "aspear-berry",
+        "attr": ["holdable-active"],
+        "cat": "medicine",
+        "fling": [10, "berry-effect"],
+        "cost": 20
+    },
+    "131": {
+        "name": "leppa-berry",
+        "attr": ["holdable-active"],
+        "cat": "medicine",
+        "fling": [10, "berry-effect"],
+        "cost": 20
+    },
+    "132": {
+        "name": "oran-berry",
+        "attr": ["holdable-active"],
+        "cat": "medicine",
+        "fling": [10, "berry-effect"],
+        "cost": 20
+    },
+    "133": {
+        "name": "persim-berry",
+        "attr": ["holdable-active"],
+        "cat": "medicine",
+        "fling": [10, "berry-effect"],
+        "cost": 20
+    },
+    "134": {
+        "name": "lum-berry",
+        "attr": ["holdable-active"],
+        "cat": "medicine",
+        "fling": [10, "berry-effect"],
+        "cost": 20
+    },
+    "135": {
+        "name": "sitrus-berry",
+        "attr": ["holdable-active"],
+        "cat": "medicine",
+        "fling": [10, "berry-effect"],
+        "cost": 20
+    },
+    "136": {
+        "name": "figy-berry",
+        "attr": ["holdable-active"],
+        "cat": "picky-healing",
+        "fling": [10, "berry-effect"],
+        "cost": 20
+    },
+    "137": {
+        "name": "wiki-berry",
+        "attr": ["holdable-active"],
+        "cat": "picky-healing",
+        "fling": [10, "berry-effect"],
+        "cost": 20
+    },
+    "138": {
+        "name": "mago-berry",
+        "attr": ["holdable-active"],
+        "cat": "picky-healing",
+        "fling": [10, "berry-effect"],
+        "cost": 20
+    },
+    "139": {
+        "name": "aguav-berry",
+        "attr": ["holdable-active"],
+        "cat": "picky-healing",
+        "fling": [10, "berry-effect"],
+        "cost": 20
+    },
+    "140": {
+        "name": "iapapa-berry",
+        "attr": ["holdable-active"],
+        "cat": "picky-healing",
+        "fling": [10, "berry-effect"],
+        "cost": 20
+    },
+    "141": {
+        "name": "razz-berry",
+        "attr": [],
+        "cat": "baking-only",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "142": {
+        "name": "bluk-berry",
+        "attr": [],
+        "cat": "baking-only",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "143": {
+        "name": "nanab-berry",
+        "attr": [],
+        "cat": "baking-only",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "144": {
+        "name": "wepear-berry",
+        "attr": [],
+        "cat": "baking-only",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "145": {
+        "name": "pinap-berry",
+        "attr": [],
+        "cat": "baking-only",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "146": {
+        "name": "pomeg-berry",
+        "attr": [],
+        "cat": "effort-drop",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "147": {
+        "name": "kelpsy-berry",
+        "attr": [],
+        "cat": "effort-drop",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "148": {
+        "name": "qualot-berry",
+        "attr": [],
+        "cat": "effort-drop",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "149": {
+        "name": "hondew-berry",
+        "attr": [],
+        "cat": "effort-drop",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "150": {
+        "name": "grepa-berry",
+        "attr": [],
+        "cat": "effort-drop",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "151": {
+        "name": "tamato-berry",
+        "attr": [],
+        "cat": "effort-drop",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "152": {
+        "name": "cornn-berry",
+        "attr": [],
+        "cat": "baking-only",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "153": {
+        "name": "magost-berry",
+        "attr": [],
+        "cat": "baking-only",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "154": {
+        "name": "rabuta-berry",
+        "attr": [],
+        "cat": "baking-only",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "155": {
+        "name": "nomel-berry",
+        "attr": [],
+        "cat": "baking-only",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "156": {
+        "name": "spelon-berry",
+        "attr": [],
+        "cat": "baking-only",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "157": {
+        "name": "pamtre-berry",
+        "attr": [],
+        "cat": "baking-only",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "158": {
+        "name": "watmel-berry",
+        "attr": [],
+        "cat": "baking-only",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "159": {
+        "name": "durin-berry",
+        "attr": [],
+        "cat": "baking-only",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "160": {
+        "name": "belue-berry",
+        "attr": [],
+        "cat": "baking-only",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "161": {
+        "name": "occa-berry",
+        "attr": ["holdable-active"],
+        "cat": "type-protection",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "162": {
+        "name": "passho-berry",
+        "attr": ["holdable-active"],
+        "cat": "type-protection",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "163": {
+        "name": "wacan-berry",
+        "attr": ["holdable-active"],
+        "cat": "type-protection",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "164": {
+        "name": "rindo-berry",
+        "attr": ["holdable-active"],
+        "cat": "type-protection",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "165": {
+        "name": "yache-berry",
+        "attr": ["holdable-active"],
+        "cat": "type-protection",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "166": {
+        "name": "chople-berry",
+        "attr": ["holdable-active"],
+        "cat": "type-protection",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "167": {
+        "name": "kebia-berry",
+        "attr": ["holdable-active"],
+        "cat": "type-protection",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "168": {
+        "name": "shuca-berry",
+        "attr": ["holdable-active"],
+        "cat": "type-protection",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "169": {
+        "name": "coba-berry",
+        "attr": ["holdable-active"],
+        "cat": "type-protection",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "170": {
+        "name": "payapa-berry",
+        "attr": ["holdable-active"],
+        "cat": "type-protection",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "171": {
+        "name": "tanga-berry",
+        "attr": ["holdable-active"],
+        "cat": "type-protection",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "172": {
+        "name": "charti-berry",
+        "attr": ["holdable-active"],
+        "cat": "type-protection",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "173": {
+        "name": "kasib-berry",
+        "attr": ["holdable-active"],
+        "cat": "type-protection",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "174": {
+        "name": "haban-berry",
+        "attr": ["holdable-active"],
+        "cat": "type-protection",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "175": {
+        "name": "colbur-berry",
+        "attr": ["holdable-active"],
+        "cat": "type-protection",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "176": {
+        "name": "babiri-berry",
+        "attr": ["holdable-active"],
+        "cat": "type-protection",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "177": {
+        "name": "chilan-berry",
+        "attr": ["holdable-active"],
+        "cat": "type-protection",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "178": {
+        "name": "liechi-berry",
+        "attr": ["holdable-active"],
+        "cat": "in-a-pinch",
+        "fling": [10, "berry-effect"],
+        "cost": 20
+    },
+    "179": {
+        "name": "ganlon-berry",
+        "attr": ["holdable-active"],
+        "cat": "in-a-pinch",
+        "fling": [10, "berry-effect"],
+        "cost": 20
+    },
+    "180": {
+        "name": "salac-berry",
+        "attr": ["holdable-active"],
+        "cat": "in-a-pinch",
+        "fling": [10, "berry-effect"],
+        "cost": 20
+    },
+    "181": {
+        "name": "petaya-berry",
+        "attr": ["holdable-active"],
+        "cat": "in-a-pinch",
+        "fling": [10, "berry-effect"],
+        "cost": 20
+    },
+    "182": {
+        "name": "apicot-berry",
+        "attr": ["holdable-active"],
+        "cat": "in-a-pinch",
+        "fling": [10, "berry-effect"],
+        "cost": 20
+    },
+    "183": {
+        "name": "lansat-berry",
+        "attr": ["holdable-active"],
+        "cat": "in-a-pinch",
+        "fling": [10, "berry-effect"],
+        "cost": 20
+    },
+    "184": {
+        "name": "starf-berry",
+        "attr": ["holdable-active"],
+        "cat": "in-a-pinch",
+        "fling": [10, "berry-effect"],
+        "cost": 20
+    },
+    "185": {
+        "name": "enigma-berry",
+        "attr": ["holdable-active"],
+        "cat": "other",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "186": {
+        "name": "micle-berry",
+        "attr": ["holdable-active"],
+        "cat": "in-a-pinch",
+        "fling": [10, "berry-effect"],
+        "cost": 20
+    },
+    "187": {
+        "name": "custap-berry",
+        "attr": ["holdable-active"],
+        "cat": "in-a-pinch",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "188": {
+        "name": "jaboca-berry",
+        "attr": ["holdable-active"],
+        "cat": "other",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "189": {
+        "name": "rowap-berry",
+        "attr": ["holdable-active"],
+        "cat": "other",
+        "fling": [10, null],
+        "cost": 20
+    },
+    "190": {
+        "name": "bright-powder",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "held-items",
+        "fling": [10, null],
+        "cost": 4000
+    },
+    "191": {
+        "name": "white-herb",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "held-items",
+        "fling": [10, "herb-effect"],
+        "cost": 4000
+    },
+    "192": {
+        "name": "macho-brace",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "effort-training",
+        "fling": [60, null],
+        "cost": 3000
+    },
+    "193": {
+        "name": "exp-share",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "training",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "194": {
+        "name": "quick-claw",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "held-items",
+        "fling": [80, null],
+        "cost": 4000
+    },
+    "195": {
+        "name": "soothe-bell",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "training",
+        "fling": [10, null],
+        "cost": 4000
+    },
+    "196": {
+        "name": "mental-herb",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "held-items",
+        "fling": [10, "herb-effect"],
+        "cost": 4000
+    },
+    "197": {
+        "name": "choice-band",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "choice",
+        "fling": [10, null],
+        "cost": 4000
+    },
+    "198": {
+        "name": "kings-rock",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "held-items",
+        "fling": [30, "flinch"],
+        "cost": 5000
+    },
+    "199": {
+        "name": "silver-powder",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "type-enhancement",
+        "fling": [10, null],
+        "cost": 1000
+    },
+    "200": {
+        "name": "amulet-coin",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "training",
+        "fling": [30, null],
+        "cost": 10000
+    },
+    "201": {
+        "name": "cleanse-tag",
+        "attr": ["holdable"],
+        "cat": "training",
+        "fling": [30, null],
+        "cost": 5000
+    },
+    "202": {
+        "name": "soul-dew",
+        "attr": ["holdable"],
+        "cat": "species-specific",
+        "fling": [30, null],
+        "cost": 0
+    },
+    "203": {
+        "name": "deep-sea-tooth",
+        "attr": ["holdable"],
+        "cat": "species-specific",
+        "fling": [90, null],
+        "cost": 2000
+    },
+    "204": {
+        "name": "deep-sea-scale",
+        "attr": ["holdable"],
+        "cat": "species-specific",
+        "fling": [30, null],
+        "cost": 2000
+    },
+    "205": {
+        "name": "smoke-ball",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "held-items",
+        "fling": [30, null],
+        "cost": 4000
+    },
+    "206": {
+        "name": "everstone",
+        "attr": ["holdable", "holdable-active", "underground"],
+        "cat": "training",
+        "fling": [30, null],
+        "cost": 3000
+    },
+    "207": {
+        "name": "focus-band",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "held-items",
+        "fling": [10, null],
+        "cost": 4000
+    },
+    "208": {
+        "name": "lucky-egg",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "training",
+        "fling": [30, null],
+        "cost": 10000
+    },
+    "209": {
+        "name": "scope-lens",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "held-items",
+        "fling": [30, null],
+        "cost": 4000
+    },
+    "210": {
+        "name": "metal-coat",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "type-enhancement",
+        "fling": [30, null],
+        "cost": 2000
+    },
+    "211": {
+        "name": "leftovers",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "held-items",
+        "fling": [10, null],
+        "cost": 4000
+    },
+    "212": {
+        "name": "dragon-scale",
+        "attr": [],
+        "cat": "evolution",
+        "fling": [30, null],
+        "cost": 2000
+    },
+    "213": {
+        "name": "light-ball",
+        "attr": ["holdable"],
+        "cat": "species-specific",
+        "fling": [30, "paralyze"],
+        "cost": 1000
+    },
+    "214": {
+        "name": "soft-sand",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "type-enhancement",
+        "fling": [10, null],
+        "cost": 1000
+    },
+    "215": {
+        "name": "hard-stone",
+        "attr": ["holdable", "holdable-active", "underground"],
+        "cat": "type-enhancement",
+        "fling": [100, null],
+        "cost": 1000
+    },
+    "216": {
+        "name": "miracle-seed",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "type-enhancement",
+        "fling": [30, null],
+        "cost": 1000
+    },
+    "217": {
+        "name": "black-glasses",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "type-enhancement",
+        "fling": [30, null],
+        "cost": 1000
+    },
+    "218": {
+        "name": "black-belt",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "type-enhancement",
+        "fling": [30, null],
+        "cost": 1000
+    },
+    "219": {
+        "name": "magnet",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "type-enhancement",
+        "fling": [30, null],
+        "cost": 1000
+    },
+    "220": {
+        "name": "mystic-water",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "type-enhancement",
+        "fling": [30, null],
+        "cost": 1000
+    },
+    "221": {
+        "name": "sharp-beak",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "type-enhancement",
+        "fling": [50, null],
+        "cost": 1000
+    },
+    "222": {
+        "name": "poison-barb",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "type-enhancement",
+        "fling": [70, "poison"],
+        "cost": 1000
+    },
+    "223": {
+        "name": "never-melt-ice",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "type-enhancement",
+        "fling": [30, null],
+        "cost": 1000
+    },
+    "224": {
+        "name": "spell-tag",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "type-enhancement",
+        "fling": [30, null],
+        "cost": 1000
+    },
+    "225": {
+        "name": "twisted-spoon",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "type-enhancement",
+        "fling": [30, null],
+        "cost": 1000
+    },
+    "226": {
+        "name": "charcoal",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "type-enhancement",
+        "fling": [30, null],
+        "cost": 1000
+    },
+    "227": {
+        "name": "dragon-fang",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "type-enhancement",
+        "fling": [70, null],
+        "cost": 1000
+    },
+    "228": {
+        "name": "silk-scarf",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "type-enhancement",
+        "fling": [10, null],
+        "cost": 1000
+    },
+    "229": {
+        "name": "up-grade",
+        "attr": [],
+        "cat": "evolution",
+        "fling": [30, null],
+        "cost": 2000
+    },
+    "230": {
+        "name": "shell-bell",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "held-items",
+        "fling": [30, null],
+        "cost": 4000
+    },
+    "231": {
+        "name": "sea-incense",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "type-enhancement",
+        "fling": [10, null],
+        "cost": 2000
+    },
+    "232": {
+        "name": "lax-incense",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "held-items",
+        "fling": [10, null],
+        "cost": 5000
+    },
+    "233": {
+        "name": "lucky-punch",
+        "attr": ["holdable"],
+        "cat": "species-specific",
+        "fling": [40, null],
+        "cost": 1000
+    },
+    "234": {
+        "name": "metal-powder",
+        "attr": ["holdable"],
+        "cat": "species-specific",
+        "fling": [10, null],
+        "cost": 1000
+    },
+    "235": {
+        "name": "thick-club",
+        "attr": ["holdable"],
+        "cat": "species-specific",
+        "fling": [90, null],
+        "cost": 1000
+    },
+    "236": {
+        "name": "stick",
+        "attr": ["holdable"],
+        "cat": "species-specific",
+        "fling": [60, null],
+        "cost": 1000
+    },
+    "237": {
+        "name": "red-scarf",
+        "attr": ["holdable-active"],
+        "cat": "scarves",
+        "fling": [10, null],
+        "cost": 100
+    },
+    "238": {
+        "name": "blue-scarf",
+        "attr": ["holdable-active"],
+        "cat": "scarves",
+        "fling": [10, null],
+        "cost": 100
+    },
+    "239": {
+        "name": "pink-scarf",
+        "attr": ["holdable-active"],
+        "cat": "scarves",
+        "fling": [10, null],
+        "cost": 100
+    },
+    "240": {
+        "name": "green-scarf",
+        "attr": ["holdable-active"],
+        "cat": "scarves",
+        "fling": [10, null],
+        "cost": 100
+    },
+    "241": {
+        "name": "yellow-scarf",
+        "attr": ["holdable-active"],
+        "cat": "scarves",
+        "fling": [10, null],
+        "cost": 100
+    },
+    "242": {
+        "name": "wide-lens",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "held-items",
+        "fling": [10, null],
+        "cost": 4000
+    },
+    "243": {
+        "name": "muscle-band",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "held-items",
+        "fling": [10, null],
+        "cost": 4000
+    },
+    "244": {
+        "name": "wise-glasses",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "held-items",
+        "fling": [10, null],
+        "cost": 4000
+    },
+    "245": {
+        "name": "expert-belt",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "held-items",
+        "fling": [10, null],
+        "cost": 4000
+    },
+    "246": {
+        "name": "light-clay",
+        "attr": ["holdable", "holdable-active", "underground"],
+        "cat": "held-items",
+        "fling": [30, null],
+        "cost": 4000
+    },
+    "247": {
+        "name": "life-orb",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "held-items",
+        "fling": [30, null],
+        "cost": 4000
+    },
+    "248": {
+        "name": "power-herb",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "held-items",
+        "fling": [10, null],
+        "cost": 4000
+    },
+    "249": {
+        "name": "toxic-orb",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "bad-held-items",
+        "fling": [30, "badly-poison"],
+        "cost": 4000
+    },
+    "250": {
+        "name": "flame-orb",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "bad-held-items",
+        "fling": [30, "burn"],
+        "cost": 4000
+    },
+    "251": {
+        "name": "quick-powder",
+        "attr": ["holdable"],
+        "cat": "species-specific",
+        "fling": [10, null],
+        "cost": 1000
+    },
+    "252": {
+        "name": "focus-sash",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "held-items",
+        "fling": [10, null],
+        "cost": 4000
+    },
+    "253": {
+        "name": "zoom-lens",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "held-items",
+        "fling": [10, null],
+        "cost": 4000
+    },
+    "254": {
+        "name": "metronome",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "held-items",
+        "fling": [30, null],
+        "cost": 4000
+    },
+    "255": {
+        "name": "iron-ball",
+        "attr": ["holdable", "holdable-active", "underground"],
+        "cat": "bad-held-items",
+        "fling": [130, null],
+        "cost": 4000
+    },
+    "256": {
+        "name": "lagging-tail",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "bad-held-items",
+        "fling": [10, null],
+        "cost": 4000
+    },
+    "257": {
+        "name": "destiny-knot",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "held-items",
+        "fling": [10, null],
+        "cost": 4000
+    },
+    "258": {
+        "name": "black-sludge",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "held-items",
+        "fling": [30, null],
+        "cost": 4000
+    },
+    "259": {
+        "name": "icy-rock",
+        "attr": ["holdable", "holdable-active", "underground"],
+        "cat": "held-items",
+        "fling": [40, null],
+        "cost": 4000
+    },
+    "260": {
+        "name": "smooth-rock",
+        "attr": ["holdable", "holdable-active", "underground"],
+        "cat": "held-items",
+        "fling": [10, null],
+        "cost": 4000
+    },
+    "261": {
+        "name": "heat-rock",
+        "attr": ["holdable", "holdable-active", "underground"],
+        "cat": "held-items",
+        "fling": [60, null],
+        "cost": 4000
+    },
+    "262": {
+        "name": "damp-rock",
+        "attr": ["holdable", "holdable-active", "underground"],
+        "cat": "held-items",
+        "fling": [60, null],
+        "cost": 4000
+    },
+    "263": {
+        "name": "grip-claw",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "held-items",
+        "fling": [90, null],
+        "cost": 4000
+    },
+    "264": {
+        "name": "choice-scarf",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "choice",
+        "fling": [10, null],
+        "cost": 4000
+    },
+    "265": {
+        "name": "sticky-barb",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "bad-held-items",
+        "fling": [80, null],
+        "cost": 4000
+    },
+    "266": {
+        "name": "power-bracer",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "effort-training",
+        "fling": [70, null],
+        "cost": 3000
+    },
+    "267": {
+        "name": "power-belt",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "effort-training",
+        "fling": [70, null],
+        "cost": 3000
+    },
+    "268": {
+        "name": "power-lens",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "effort-training",
+        "fling": [70, null],
+        "cost": 3000
+    },
+    "269": {
+        "name": "power-band",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "effort-training",
+        "fling": [70, null],
+        "cost": 3000
+    },
+    "270": {
+        "name": "power-anklet",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "effort-training",
+        "fling": [70, null],
+        "cost": 3000
+    },
+    "271": {
+        "name": "power-weight",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "effort-training",
+        "fling": [70, null],
+        "cost": 3000
+    },
+    "272": {
+        "name": "shed-shell",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "held-items",
+        "fling": [10, null],
+        "cost": 4000
+    },
+    "273": {
+        "name": "big-root",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "held-items",
+        "fling": [10, null],
+        "cost": 4000
+    },
+    "274": {
+        "name": "choice-specs",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "choice",
+        "fling": [10, null],
+        "cost": 4000
+    },
+    "275": {
+        "name": "flame-plate",
+        "attr": ["holdable", "holdable-active", "underground"],
+        "cat": "plates",
+        "fling": [90, null],
+        "cost": 1000
+    },
+    "276": {
+        "name": "splash-plate",
+        "attr": ["holdable", "holdable-active", "underground"],
+        "cat": "plates",
+        "fling": [90, null],
+        "cost": 1000
+    },
+    "277": {
+        "name": "zap-plate",
+        "attr": ["holdable", "holdable-active", "underground"],
+        "cat": "plates",
+        "fling": [90, null],
+        "cost": 1000
+    },
+    "278": {
+        "name": "meadow-plate",
+        "attr": ["holdable", "holdable-active", "underground"],
+        "cat": "plates",
+        "fling": [90, null],
+        "cost": 1000
+    },
+    "279": {
+        "name": "icicle-plate",
+        "attr": ["holdable", "holdable-active", "underground"],
+        "cat": "plates",
+        "fling": [90, null],
+        "cost": 1000
+    },
+    "280": {
+        "name": "fist-plate",
+        "attr": ["holdable", "holdable-active", "underground"],
+        "cat": "plates",
+        "fling": [90, null],
+        "cost": 1000
+    },
+    "281": {
+        "name": "toxic-plate",
+        "attr": ["holdable", "holdable-active", "underground"],
+        "cat": "plates",
+        "fling": [90, null],
+        "cost": 1000
+    },
+    "282": {
+        "name": "earth-plate",
+        "attr": ["holdable", "holdable-active", "underground"],
+        "cat": "plates",
+        "fling": [90, null],
+        "cost": 1000
+    },
+    "283": {
+        "name": "sky-plate",
+        "attr": ["holdable", "holdable-active", "underground"],
+        "cat": "plates",
+        "fling": [90, null],
+        "cost": 1000
+    },
+    "284": {
+        "name": "mind-plate",
+        "attr": ["holdable", "holdable-active", "underground"],
+        "cat": "plates",
+        "fling": [90, null],
+        "cost": 1000
+    },
+    "285": {
+        "name": "insect-plate",
+        "attr": ["holdable", "holdable-active", "underground"],
+        "cat": "plates",
+        "fling": [90, null],
+        "cost": 1000
+    },
+    "286": {
+        "name": "stone-plate",
+        "attr": ["holdable", "holdable-active", "underground"],
+        "cat": "plates",
+        "fling": [90, null],
+        "cost": 1000
+    },
+    "287": {
+        "name": "spooky-plate",
+        "attr": ["holdable", "holdable-active", "underground"],
+        "cat": "plates",
+        "fling": [90, null],
+        "cost": 1000
+    },
+    "288": {
+        "name": "draco-plate",
+        "attr": ["holdable", "holdable-active", "underground"],
+        "cat": "plates",
+        "fling": [90, null],
+        "cost": 1000
+    },
+    "289": {
+        "name": "dread-plate",
+        "attr": ["holdable", "holdable-active", "underground"],
+        "cat": "plates",
+        "fling": [90, null],
+        "cost": 1000
+    },
+    "290": {
+        "name": "iron-plate",
+        "attr": ["holdable", "holdable-active", "underground"],
+        "cat": "plates",
+        "fling": [90, null],
+        "cost": 1000
+    },
+    "291": {
+        "name": "odd-incense",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "type-enhancement",
+        "fling": [10, null],
+        "cost": 2000
+    },
+    "292": {
+        "name": "rock-incense",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "type-enhancement",
+        "fling": [10, null],
+        "cost": 2000
+    },
+    "293": {
+        "name": "full-incense",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "bad-held-items",
+        "fling": [10, null],
+        "cost": 5000
+    },
+    "294": {
+        "name": "wave-incense",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "type-enhancement",
+        "fling": [10, null],
+        "cost": 2000
+    },
+    "295": {
+        "name": "rose-incense",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "type-enhancement",
+        "fling": [10, null],
+        "cost": 2000
+    },
+    "296": {
+        "name": "luck-incense",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "training",
+        "fling": [10, null],
+        "cost": 11000
+    },
+    "297": {
+        "name": "pure-incense",
+        "attr": ["holdable"],
+        "cat": "training",
+        "fling": [10, null],
+        "cost": 6000
+    },
+    "298": {
+        "name": "protector",
+        "attr": [],
+        "cat": "evolution",
+        "fling": [80, null],
+        "cost": 2000
+    },
+    "299": {
+        "name": "electirizer",
+        "attr": [],
+        "cat": "evolution",
+        "fling": [80, null],
+        "cost": 2000
+    },
+    "300": {
+        "name": "magmarizer",
+        "attr": [],
+        "cat": "evolution",
+        "fling": [80, null],
+        "cost": 2000
+    },
+    "301": {
+        "name": "dubious-disc",
+        "attr": [],
+        "cat": "evolution",
+        "fling": [50, null],
+        "cost": 2000
+    },
+    "302": {
+        "name": "reaper-cloth",
+        "attr": [],
+        "cat": "evolution",
+        "fling": [10, null],
+        "cost": 2000
+    },
+    "303": {
+        "name": "razor-claw",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "held-items",
+        "fling": [80, null],
+        "cost": 5000
+    },
+    "304": {
+        "name": "razor-fang",
+        "attr": ["holdable", "holdable-active"],
+        "cat": "held-items",
+        "fling": [30, "flinch"],
+        "cost": 5000
+    },
+    "305": {
+        "name": "tm01",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "306": {
+        "name": "tm02",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "307": {
+        "name": "tm03",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "308": {
+        "name": "tm04",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "309": {
+        "name": "tm05",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "310": {
+        "name": "tm06",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "311": {
+        "name": "tm07",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 50000
+    },
+    "312": {
+        "name": "tm08",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "313": {
+        "name": "tm09",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "314": {
+        "name": "tm10",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "315": {
+        "name": "tm11",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 50000
+    },
+    "316": {
+        "name": "tm12",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "317": {
+        "name": "tm13",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "318": {
+        "name": "tm14",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 30000
+    },
+    "319": {
+        "name": "tm15",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 50000
+    },
+    "320": {
+        "name": "tm16",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "321": {
+        "name": "tm17",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "322": {
+        "name": "tm18",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 50000
+    },
+    "323": {
+        "name": "tm19",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "324": {
+        "name": "tm20",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "325": {
+        "name": "tm21",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "326": {
+        "name": "tm22",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "327": {
+        "name": "tm23",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "328": {
+        "name": "tm24",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "329": {
+        "name": "tm25",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 30000
+    },
+    "330": {
+        "name": "tm26",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "331": {
+        "name": "tm27",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "332": {
+        "name": "tm28",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 30000
+    },
+    "333": {
+        "name": "tm29",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "334": {
+        "name": "tm30",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "335": {
+        "name": "tm31",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "336": {
+        "name": "tm32",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "337": {
+        "name": "tm33",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "338": {
+        "name": "tm34",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "339": {
+        "name": "tm35",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "340": {
+        "name": "tm36",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "341": {
+        "name": "tm37",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 50000
+    },
+    "342": {
+        "name": "tm38",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 30000
+    },
+    "343": {
+        "name": "tm39",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "344": {
+        "name": "tm40",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "345": {
+        "name": "tm41",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "346": {
+        "name": "tm42",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "347": {
+        "name": "tm43",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "348": {
+        "name": "tm44",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "349": {
+        "name": "tm45",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "350": {
+        "name": "tm46",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "351": {
+        "name": "tm47",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "352": {
+        "name": "tm48",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "353": {
+        "name": "tm49",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "354": {
+        "name": "tm50",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 80000
+    },
+    "355": {
+        "name": "tm51",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "356": {
+        "name": "tm52",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 30000
+    },
+    "357": {
+        "name": "tm53",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "358": {
+        "name": "tm54",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "359": {
+        "name": "tm55",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "360": {
+        "name": "tm56",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "361": {
+        "name": "tm57",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "362": {
+        "name": "tm58",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "363": {
+        "name": "tm59",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 30000
+    },
+    "364": {
+        "name": "tm60",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "365": {
+        "name": "tm61",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "366": {
+        "name": "tm62",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "367": {
+        "name": "tm63",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "368": {
+        "name": "tm64",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "369": {
+        "name": "tm65",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "370": {
+        "name": "tm66",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "371": {
+        "name": "tm67",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "372": {
+        "name": "tm68",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 50000
+    },
+    "373": {
+        "name": "tm69",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "374": {
+        "name": "tm70",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 30000
+    },
+    "375": {
+        "name": "tm71",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 30000
+    },
+    "376": {
+        "name": "tm72",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "377": {
+        "name": "tm73",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 5000
+    },
+    "378": {
+        "name": "tm74",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "379": {
+        "name": "tm75",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "380": {
+        "name": "tm76",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "381": {
+        "name": "tm77",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "382": {
+        "name": "tm78",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "383": {
+        "name": "tm79",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "384": {
+        "name": "tm80",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "385": {
+        "name": "tm81",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "386": {
+        "name": "tm82",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "387": {
+        "name": "tm83",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "388": {
+        "name": "tm84",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "389": {
+        "name": "tm85",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "390": {
+        "name": "tm86",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "391": {
+        "name": "tm87",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "392": {
+        "name": "tm88",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "393": {
+        "name": "tm89",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "394": {
+        "name": "tm90",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "395": {
+        "name": "tm91",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "396": {
+        "name": "tm92",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "397": {
+        "name": "hm01",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "398": {
+        "name": "hm02",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "399": {
+        "name": "hm03",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "400": {
+        "name": "hm04",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "401": {
+        "name": "hm05",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "402": {
+        "name": "hm06",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "403": {
+        "name": "hm07",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "404": {
+        "name": "hm08",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "405": {
+        "name": "explorer-kit",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "406": {
+        "name": "loot-sack",
+        "attr": [],
+        "cat": "unused",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "407": {
+        "name": "rule-book",
+        "attr": [],
+        "cat": "unused",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "408": {
+        "name": "poke-radar",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "409": {
+        "name": "point-card",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "410": {
+        "name": "journal",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "411": {
+        "name": "seal-case",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "412": {
+        "name": "fashion-case",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "413": {
+        "name": "seal-bag",
+        "attr": [],
+        "cat": "unused",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "414": {
+        "name": "pal-pad",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "415": {
+        "name": "works-key",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "416": {
+        "name": "old-charm",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "417": {
+        "name": "galactic-key",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "418": {
+        "name": "red-chain",
+        "attr": [],
+        "cat": "unused",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "419": {
+        "name": "town-map",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "420": {
+        "name": "vs-seeker",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "421": {
+        "name": "coin-case",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "422": {
+        "name": "old-rod",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "423": {
+        "name": "good-rod",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "424": {
+        "name": "super-rod",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "425": {
+        "name": "sprayduck",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "426": {
+        "name": "poffin-case",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "427": {
+        "name": "bicycle",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "428": {
+        "name": "suite-key",
+        "attr": [],
+        "cat": "event-items",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "429": {
+        "name": "oaks-letter",
+        "attr": [],
+        "cat": "event-items",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "430": {
+        "name": "lunar-wing",
+        "attr": [],
+        "cat": "event-items",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "431": {
+        "name": "member-card",
+        "attr": [],
+        "cat": "event-items",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "432": {
+        "name": "azure-flute",
+        "attr": [],
+        "cat": "event-items",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "433": {
+        "name": "ss-ticket",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "434": {
+        "name": "contest-pass",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "435": {
+        "name": "magma-stone",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "436": {
+        "name": "parcel",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "437": {
+        "name": "coupon-1",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "438": {
+        "name": "coupon-2",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "439": {
+        "name": "coupon-3",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "440": {
+        "name": "storage-key",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "441": {
+        "name": "secret-potion",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "442": {
+        "name": "griseous-orb",
+        "attr": [],
+        "cat": "species-specific",
+        "fling": [60, null],
+        "cost": 0
+    },
+    "443": {
+        "name": "vs-recorder",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "444": {
+        "name": "gracidea",
+        "attr": [],
+        "cat": "event-items",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "445": {
+        "name": "secret-key",
+        "attr": [],
+        "cat": "event-items",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "446": {
+        "name": "apricorn-box",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "447": {
+        "name": "berry-pots",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "448": {
+        "name": "squirt-bottle",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "449": {
+        "name": "lure-ball",
+        "attr": [],
+        "cat": "apricorn-balls",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "450": {
+        "name": "level-ball",
+        "attr": [],
+        "cat": "apricorn-balls",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "451": {
+        "name": "moon-ball",
+        "attr": [],
+        "cat": "apricorn-balls",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "452": {
+        "name": "heavy-ball",
+        "attr": [],
+        "cat": "apricorn-balls",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "453": {
+        "name": "fast-ball",
+        "attr": [],
+        "cat": "apricorn-balls",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "454": {
+        "name": "friend-ball",
+        "attr": [],
+        "cat": "apricorn-balls",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "455": {
+        "name": "love-ball",
+        "attr": [],
+        "cat": "apricorn-balls",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "456": {
+        "name": "park-ball",
+        "attr": [],
+        "cat": "standard-balls",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "457": {
+        "name": "sport-ball",
+        "attr": [],
+        "cat": "standard-balls",
+        "fling": [null, null],
+        "cost": 300
+    },
+    "458": {
+        "name": "red-apricorn",
+        "attr": [],
+        "cat": "apricorn-box",
+        "fling": [null, null],
+        "cost": 20
+    },
+    "459": {
+        "name": "blue-apricorn",
+        "attr": [],
+        "cat": "apricorn-box",
+        "fling": [null, null],
+        "cost": 20
+    },
+    "460": {
+        "name": "yellow-apricorn",
+        "attr": [],
+        "cat": "apricorn-box",
+        "fling": [null, null],
+        "cost": 20
+    },
+    "461": {
+        "name": "green-apricorn",
+        "attr": [],
+        "cat": "apricorn-box",
+        "fling": [null, null],
+        "cost": 20
+    },
+    "462": {
+        "name": "pink-apricorn",
+        "attr": [],
+        "cat": "apricorn-box",
+        "fling": [null, null],
+        "cost": 20
+    },
+    "463": {
+        "name": "white-apricorn",
+        "attr": [],
+        "cat": "apricorn-box",
+        "fling": [null, null],
+        "cost": 20
+    },
+    "464": {
+        "name": "black-apricorn",
+        "attr": [],
+        "cat": "apricorn-box",
+        "fling": [null, null],
+        "cost": 20
+    },
+    "465": {
+        "name": "dowsing-machine",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "466": {
+        "name": "rage-candy-bar",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [30, null],
+        "cost": 350
+    },
+    "467": {
+        "name": "red-orb",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "468": {
+        "name": "blue-orb",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "469": {
+        "name": "jade-orb",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "470": {
+        "name": "enigma-stone",
+        "attr": [],
+        "cat": "event-items",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "471": {
+        "name": "unown-report",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "472": {
+        "name": "blue-card",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "473": {
+        "name": "slowpoke-tail",
+        "attr": [],
+        "cat": "unused",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "474": {
+        "name": "clear-bell",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "475": {
+        "name": "card-key",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "476": {
+        "name": "basement-key",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "477": {
+        "name": "red-scale",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "478": {
+        "name": "lost-item",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "479": {
+        "name": "pass",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "480": {
+        "name": "machine-part",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "481": {
+        "name": "silver-wing",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "482": {
+        "name": "rainbow-wing",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "483": {
+        "name": "mystery-egg",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "484": {
+        "name": "gb-sounds",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "485": {
+        "name": "tidal-bell",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "486": {
+        "name": "data-card-01",
+        "attr": [],
+        "cat": "data-cards",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "487": {
+        "name": "data-card-02",
+        "attr": [],
+        "cat": "data-cards",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "488": {
+        "name": "data-card-03",
+        "attr": [],
+        "cat": "data-cards",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "489": {
+        "name": "data-card-04",
+        "attr": [],
+        "cat": "data-cards",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "490": {
+        "name": "data-card-05",
+        "attr": [],
+        "cat": "data-cards",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "491": {
+        "name": "data-card-06",
+        "attr": [],
+        "cat": "data-cards",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "492": {
+        "name": "data-card-07",
+        "attr": [],
+        "cat": "data-cards",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "493": {
+        "name": "data-card-08",
+        "attr": [],
+        "cat": "data-cards",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "494": {
+        "name": "data-card-09",
+        "attr": [],
+        "cat": "data-cards",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "495": {
+        "name": "data-card-10",
+        "attr": [],
+        "cat": "data-cards",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "496": {
+        "name": "data-card-11",
+        "attr": [],
+        "cat": "data-cards",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "497": {
+        "name": "data-card-12",
+        "attr": [],
+        "cat": "data-cards",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "498": {
+        "name": "data-card-13",
+        "attr": [],
+        "cat": "data-cards",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "499": {
+        "name": "data-card-14",
+        "attr": [],
+        "cat": "data-cards",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "500": {
+        "name": "data-card-15",
+        "attr": [],
+        "cat": "data-cards",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "501": {
+        "name": "data-card-16",
+        "attr": [],
+        "cat": "data-cards",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "502": {
+        "name": "data-card-17",
+        "attr": [],
+        "cat": "data-cards",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "503": {
+        "name": "data-card-18",
+        "attr": [],
+        "cat": "data-cards",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "504": {
+        "name": "data-card-19",
+        "attr": [],
+        "cat": "data-cards",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "505": {
+        "name": "data-card-20",
+        "attr": [],
+        "cat": "data-cards",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "506": {
+        "name": "data-card-21",
+        "attr": [],
+        "cat": "data-cards",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "507": {
+        "name": "data-card-22",
+        "attr": [],
+        "cat": "data-cards",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "508": {
+        "name": "data-card-23",
+        "attr": [],
+        "cat": "data-cards",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "509": {
+        "name": "data-card-24",
+        "attr": [],
+        "cat": "data-cards",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "510": {
+        "name": "data-card-25",
+        "attr": [],
+        "cat": "data-cards",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "511": {
+        "name": "data-card-26",
+        "attr": [],
+        "cat": "data-cards",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "512": {
+        "name": "data-card-27",
+        "attr": [],
+        "cat": "data-cards",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "513": {
+        "name": "lock-capsule",
+        "attr": [],
+        "cat": "unused",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "514": {
+        "name": "photo-album",
+        "attr": [],
+        "cat": "unused",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "515": {
+        "name": "orange-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "516": {
+        "name": "harbor-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "517": {
+        "name": "glitter-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "518": {
+        "name": "mech-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "519": {
+        "name": "wood-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "520": {
+        "name": "wave-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "521": {
+        "name": "bead-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "522": {
+        "name": "shadow-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "523": {
+        "name": "tropic-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "524": {
+        "name": "dream-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "525": {
+        "name": "fab-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "526": {
+        "name": "retro-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "527": {
+        "name": "mach-bike",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "528": {
+        "name": "acro-bike",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "529": {
+        "name": "wailmer-pail",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "530": {
+        "name": "devon-goods",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "531": {
+        "name": "soot-sack",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "532": {
+        "name": "pokeblock-case",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "533": {
+        "name": "letter",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "534": {
+        "name": "eon-ticket",
+        "attr": [],
+        "cat": "event-items",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "535": {
+        "name": "scanner",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "536": {
+        "name": "go-goggles",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "537": {
+        "name": "meteorite",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "538": {
+        "name": "rm-1-key",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "539": {
+        "name": "rm-2-key",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "540": {
+        "name": "rm-4-key",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "541": {
+        "name": "rm-6-key",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "542": {
+        "name": "devon-scope",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "543": {
+        "name": "oaks-parcel",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "544": {
+        "name": "poke-flute",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "545": {
+        "name": "bike-voucher",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "546": {
+        "name": "gold-teeth",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "547": {
+        "name": "lift-key",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "548": {
+        "name": "silph-scope",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "549": {
+        "name": "fame-checker",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "550": {
+        "name": "tm-case",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "551": {
+        "name": "berry-pouch",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "552": {
+        "name": "teachy-tv",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "553": {
+        "name": "tri-pass",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "554": {
+        "name": "rainbow-pass",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "555": {
+        "name": "tea",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "556": {
+        "name": "mysticticket",
+        "attr": [],
+        "cat": "event-items",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "557": {
+        "name": "auroraticket",
+        "attr": [],
+        "cat": "event-items",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "558": {
+        "name": "powder-jar",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "559": {
+        "name": "ruby",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "560": {
+        "name": "sapphire",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "561": {
+        "name": "magma-emblem",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "562": {
+        "name": "old-sea-map",
+        "attr": [],
+        "cat": "event-items",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "563": {
+        "name": "douse-drive",
+        "attr": [],
+        "cat": "species-specific",
+        "fling": [70, null],
+        "cost": 0
+    },
+    "564": {
+        "name": "shock-drive",
+        "attr": [],
+        "cat": "species-specific",
+        "fling": [70, null],
+        "cost": 0
+    },
+    "565": {
+        "name": "burn-drive",
+        "attr": [],
+        "cat": "species-specific",
+        "fling": [70, null],
+        "cost": 0
+    },
+    "566": {
+        "name": "chill-drive",
+        "attr": [],
+        "cat": "species-specific",
+        "fling": [70, null],
+        "cost": 0
+    },
+    "567": {
+        "name": "sweet-heart",
+        "attr": [],
+        "cat": "healing",
+        "fling": [30, null],
+        "cost": 3000
+    },
+    "568": {
+        "name": "greet-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "569": {
+        "name": "favored-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "570": {
+        "name": "rsvp-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "571": {
+        "name": "thanks-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "572": {
+        "name": "inquiry-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "573": {
+        "name": "like-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "574": {
+        "name": "reply-mail",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "575": {
+        "name": "bridge-mail-s",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "576": {
+        "name": "bridge-mail-d",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "577": {
+        "name": "bridge-mail-t",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "578": {
+        "name": "bridge-mail-v",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "579": {
+        "name": "bridge-mail-m",
+        "attr": [],
+        "cat": "all-mail",
+        "fling": [null, null],
+        "cost": 50
+    },
+    "580": {
+        "name": "prism-scale",
+        "attr": [],
+        "cat": "evolution",
+        "fling": [30, null],
+        "cost": 2000
+    },
+    "581": {
+        "name": "eviolite",
+        "attr": [],
+        "cat": "held-items",
+        "fling": [40, null],
+        "cost": 4000
+    },
+    "582": {
+        "name": "float-stone",
+        "attr": [],
+        "cat": "held-items",
+        "fling": [30, null],
+        "cost": 4000
+    },
+    "583": {
+        "name": "rocky-helmet",
+        "attr": [],
+        "cat": "held-items",
+        "fling": [60, null],
+        "cost": 4000
+    },
+    "584": {
+        "name": "air-balloon",
+        "attr": [],
+        "cat": "held-items",
+        "fling": [10, null],
+        "cost": 4000
+    },
+    "585": {
+        "name": "red-card",
+        "attr": [],
+        "cat": "held-items",
+        "fling": [10, null],
+        "cost": 4000
+    },
+    "586": {
+        "name": "ring-target",
+        "attr": [],
+        "cat": "held-items",
+        "fling": [10, null],
+        "cost": 4000
+    },
+    "587": {
+        "name": "binding-band",
+        "attr": [],
+        "cat": "held-items",
+        "fling": [30, null],
+        "cost": 4000
+    },
+    "588": {
+        "name": "absorb-bulb",
+        "attr": [],
+        "cat": "held-items",
+        "fling": [30, null],
+        "cost": 4000
+    },
+    "589": {
+        "name": "cell-battery",
+        "attr": [],
+        "cat": "held-items",
+        "fling": [30, null],
+        "cost": 4000
+    },
+    "590": {
+        "name": "eject-button",
+        "attr": [],
+        "cat": "held-items",
+        "fling": [30, null],
+        "cost": 4000
+    },
+    "591": {
+        "name": "fire-gem",
+        "attr": [],
+        "cat": "jewels",
+        "fling": [null, null],
+        "cost": 200
+    },
+    "592": {
+        "name": "water-gem",
+        "attr": [],
+        "cat": "jewels",
+        "fling": [null, null],
+        "cost": 200
+    },
+    "593": {
+        "name": "electric-gem",
+        "attr": [],
+        "cat": "jewels",
+        "fling": [null, null],
+        "cost": 200
+    },
+    "594": {
+        "name": "grass-gem",
+        "attr": [],
+        "cat": "jewels",
+        "fling": [null, null],
+        "cost": 200
+    },
+    "595": {
+        "name": "ice-gem",
+        "attr": [],
+        "cat": "jewels",
+        "fling": [null, null],
+        "cost": 200
+    },
+    "596": {
+        "name": "fighting-gem",
+        "attr": [],
+        "cat": "jewels",
+        "fling": [null, null],
+        "cost": 200
+    },
+    "597": {
+        "name": "poison-gem",
+        "attr": [],
+        "cat": "jewels",
+        "fling": [null, null],
+        "cost": 200
+    },
+    "598": {
+        "name": "ground-gem",
+        "attr": [],
+        "cat": "jewels",
+        "fling": [null, null],
+        "cost": 200
+    },
+    "599": {
+        "name": "flying-gem",
+        "attr": [],
+        "cat": "jewels",
+        "fling": [null, null],
+        "cost": 200
+    },
+    "600": {
+        "name": "psychic-gem",
+        "attr": [],
+        "cat": "jewels",
+        "fling": [null, null],
+        "cost": 200
+    },
+    "601": {
+        "name": "bug-gem",
+        "attr": [],
+        "cat": "jewels",
+        "fling": [null, null],
+        "cost": 200
+    },
+    "602": {
+        "name": "rock-gem",
+        "attr": [],
+        "cat": "jewels",
+        "fling": [null, null],
+        "cost": 200
+    },
+    "603": {
+        "name": "ghost-gem",
+        "attr": [],
+        "cat": "jewels",
+        "fling": [null, null],
+        "cost": 200
+    },
+    "604": {
+        "name": "dark-gem",
+        "attr": [],
+        "cat": "jewels",
+        "fling": [null, null],
+        "cost": 200
+    },
+    "605": {
+        "name": "steel-gem",
+        "attr": [],
+        "cat": "jewels",
+        "fling": [null, null],
+        "cost": 200
+    },
+    "606": {
+        "name": "health-wing",
+        "attr": [],
+        "cat": "vitamins",
+        "fling": [20, null],
+        "cost": 300
+    },
+    "607": {
+        "name": "muscle-wing",
+        "attr": [],
+        "cat": "vitamins",
+        "fling": [20, null],
+        "cost": 300
+    },
+    "608": {
+        "name": "resist-wing",
+        "attr": [],
+        "cat": "vitamins",
+        "fling": [20, null],
+        "cost": 300
+    },
+    "609": {
+        "name": "genius-wing",
+        "attr": [],
+        "cat": "vitamins",
+        "fling": [20, null],
+        "cost": 300
+    },
+    "610": {
+        "name": "clever-wing",
+        "attr": [],
+        "cat": "vitamins",
+        "fling": [20, null],
+        "cost": 300
+    },
+    "611": {
+        "name": "swift-wing",
+        "attr": [],
+        "cat": "vitamins",
+        "fling": [20, null],
+        "cost": 300
+    },
+    "612": {
+        "name": "pretty-wing",
+        "attr": [],
+        "cat": "loot",
+        "fling": [20, null],
+        "cost": 1000
+    },
+    "613": {
+        "name": "cover-fossil",
+        "attr": [],
+        "cat": "dex-completion",
+        "fling": [100, null],
+        "cost": 7000
+    },
+    "614": {
+        "name": "plume-fossil",
+        "attr": [],
+        "cat": "dex-completion",
+        "fling": [100, null],
+        "cost": 7000
+    },
+    "615": {
+        "name": "liberty-pass",
+        "attr": [],
+        "cat": "event-items",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "616": {
+        "name": "pass-orb",
+        "attr": [],
+        "cat": "held-items",
+        "fling": [30, null],
+        "cost": 200
+    },
+    "617": {
+        "name": "dream-ball",
+        "attr": [],
+        "cat": "special-balls",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "618": {
+        "name": "poke-toy",
+        "attr": [],
+        "cat": "spelunking",
+        "fling": [30, null],
+        "cost": 100
+    },
+    "619": {
+        "name": "prop-case",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "620": {
+        "name": "dragon-skull",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "621": {
+        "name": "balm-mushroom",
+        "attr": [],
+        "cat": "loot",
+        "fling": [30, null],
+        "cost": 15000
+    },
+    "622": {
+        "name": "big-nugget",
+        "attr": [],
+        "cat": "loot",
+        "fling": [30, null],
+        "cost": 40000
+    },
+    "623": {
+        "name": "pearl-string",
+        "attr": [],
+        "cat": "loot",
+        "fling": [30, null],
+        "cost": 30000
+    },
+    "624": {
+        "name": "comet-shard",
+        "attr": [],
+        "cat": "loot",
+        "fling": [30, null],
+        "cost": 60000
+    },
+    "625": {
+        "name": "relic-copper",
+        "attr": [],
+        "cat": "loot",
+        "fling": [30, null],
+        "cost": 0
+    },
+    "626": {
+        "name": "relic-silver",
+        "attr": [],
+        "cat": "loot",
+        "fling": [30, null],
+        "cost": 0
+    },
+    "627": {
+        "name": "relic-gold",
+        "attr": [],
+        "cat": "loot",
+        "fling": [30, null],
+        "cost": 60000
+    },
+    "628": {
+        "name": "relic-vase",
+        "attr": [],
+        "cat": "loot",
+        "fling": [30, null],
+        "cost": 0
+    },
+    "629": {
+        "name": "relic-band",
+        "attr": [],
+        "cat": "loot",
+        "fling": [30, null],
+        "cost": 0
+    },
+    "630": {
+        "name": "relic-statue",
+        "attr": [],
+        "cat": "loot",
+        "fling": [30, null],
+        "cost": 0
+    },
+    "631": {
+        "name": "relic-crown",
+        "attr": [],
+        "cat": "loot",
+        "fling": [30, null],
+        "cost": 0
+    },
+    "632": {
+        "name": "casteliacone",
+        "attr": [],
+        "cat": "status-cures",
+        "fling": [30, null],
+        "cost": 350
+    },
+    "633": {
+        "name": "dire-hit-2",
+        "attr": [],
+        "cat": "miracle-shooter",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "634": {
+        "name": "x-speed-2",
+        "attr": [],
+        "cat": "miracle-shooter",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "635": {
+        "name": "x-sp-atk-2",
+        "attr": [],
+        "cat": "miracle-shooter",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "636": {
+        "name": "x-sp-def-2",
+        "attr": [],
+        "cat": "miracle-shooter",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "637": {
+        "name": "x-defense-2",
+        "attr": [],
+        "cat": "miracle-shooter",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "638": {
+        "name": "x-attack-2",
+        "attr": [],
+        "cat": "miracle-shooter",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "639": {
+        "name": "x-accuracy-2",
+        "attr": [],
+        "cat": "miracle-shooter",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "640": {
+        "name": "x-speed-3",
+        "attr": [],
+        "cat": "miracle-shooter",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "641": {
+        "name": "x-sp-atk-3",
+        "attr": [],
+        "cat": "miracle-shooter",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "642": {
+        "name": "x-sp-def-3",
+        "attr": [],
+        "cat": "miracle-shooter",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "643": {
+        "name": "x-defense-3",
+        "attr": [],
+        "cat": "miracle-shooter",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "644": {
+        "name": "x-attack-3",
+        "attr": [],
+        "cat": "miracle-shooter",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "645": {
+        "name": "x-accuracy-3",
+        "attr": [],
+        "cat": "miracle-shooter",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "646": {
+        "name": "x-speed-6",
+        "attr": [],
+        "cat": "miracle-shooter",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "647": {
+        "name": "x-sp-atk-6",
+        "attr": [],
+        "cat": "miracle-shooter",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "648": {
+        "name": "x-sp-def-6",
+        "attr": [],
+        "cat": "miracle-shooter",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "649": {
+        "name": "x-defense-6",
+        "attr": [],
+        "cat": "miracle-shooter",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "650": {
+        "name": "x-attack-6",
+        "attr": [],
+        "cat": "miracle-shooter",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "651": {
+        "name": "x-accuracy-6",
+        "attr": [],
+        "cat": "miracle-shooter",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "652": {
+        "name": "ability-urge",
+        "attr": [],
+        "cat": "miracle-shooter",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "653": {
+        "name": "item-drop",
+        "attr": [],
+        "cat": "miracle-shooter",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "654": {
+        "name": "item-urge",
+        "attr": [],
+        "cat": "miracle-shooter",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "655": {
+        "name": "reset-urge",
+        "attr": [],
+        "cat": "miracle-shooter",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "656": {
+        "name": "dire-hit-3",
+        "attr": [],
+        "cat": "miracle-shooter",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "657": {
+        "name": "light-stone",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "658": {
+        "name": "dark-stone",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "659": {
+        "name": "tm93",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 50000
+    },
+    "660": {
+        "name": "tm94",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 30000
+    },
+    "661": {
+        "name": "tm95",
+        "attr": [],
+        "cat": "all-machines",
+        "fling": [null, null],
+        "cost": 10000
+    },
+    "662": {
+        "name": "xtransceiver",
+        "attr": [],
+        "cat": "gameplay",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "663": {
+        "name": "god-stone",
+        "attr": [],
+        "cat": "unused",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "664": {
+        "name": "gram-1",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "665": {
+        "name": "gram-2",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    },
+    "666": {
+        "name": "gram-3",
+        "attr": [],
+        "cat": "plot-advancement",
+        "fling": [null, null],
+        "cost": 0
+    }
+}

@@ -7,7 +7,6 @@ TODO:
 """
 
 import json
-import os
 from beckett import exceptions as beckett_except
 import pokepy
 import jsbeautifier
@@ -20,7 +19,7 @@ def build_moves():
         An object that contains all infortmation we will be containing in our
         pokedex.
     Throws:
-        TBD
+        beckett.exceptions.InvalidStatusCodeError
     """
 
     moves = {}

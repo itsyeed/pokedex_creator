@@ -7,7 +7,6 @@ TODO:
 """
 
 import json
-import os
 import re
 import pokepy
 import jsbeautifier
@@ -20,7 +19,7 @@ def build_pokedex():
         An object that contains all infortmation we will be containing in our
         pokedex.
     Throws:
-        TBD
+        None.
     """
 
     pokedex = {}
@@ -76,7 +75,7 @@ def main():
     with open("../output/pokedex.json", 'w') as pokedex:
         pokedex.write(jsbeautifier.beautify(json.dumps(my_pokedex)))
 
-    with open("../output/pokedex.json", 'w') as pokedex_min:
+    with open("../output/pokedex_min.json", 'w') as pokedex_min:
         json.dump(my_pokedex, pokedex_min)
 if __name__ == '__main__':
     main()
